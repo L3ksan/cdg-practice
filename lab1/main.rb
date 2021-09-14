@@ -5,7 +5,6 @@ end
 def greeting
   puts "Здравствуйте, введите, пожалуйста, ваше имя"
   name = gets.chomp
-  name
   puts "Далее введите вашу фамилию"
   soname = gets.chomp
   puts "И на последок, ваш возраст: #n"
@@ -28,5 +27,3 @@ def foobar(left, right)
     left+right
  end
 end
-
-greeting

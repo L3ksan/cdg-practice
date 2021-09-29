@@ -1,6 +1,7 @@
 def cs_power_of_two(number, word)
   if word[-2,2] != "CS"
     puts "Результат : " + word.reverse
+    word.reverse
   else
     result = 2 ** word.length
     puts "Результат: #{result.to_s}"
@@ -12,8 +13,7 @@ def repeat_int_input
   loop do
     input_string = gets.chomp
     if input_string.scan(/\D/).empty?
-      input_string.to_i
-      break
+      return input_string.to_i
     end
     puts "Вы ввели не число"
     puts "Повторите попытку, введите число"

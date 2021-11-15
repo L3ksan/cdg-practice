@@ -1,2 +1,2 @@
-puts 'Hello orld'
+puts 'Hello world'
 puts 'Hello CDG students'

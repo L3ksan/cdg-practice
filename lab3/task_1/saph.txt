@@ -1,0 +1,4 @@
+Hello, my dear friend!
+It's just some lines for ruby
+Nevermind if you find something strange here
+It's just for fun. It takes only 1 minutes

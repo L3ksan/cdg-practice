@@ -3,12 +3,12 @@ def multiply(left, right)
 end
 
 def greeting
-  puts "Здравствуйте, введите, пожалуйста, ваше имя"
+  puts "Hello, please enter your name"
   name = gets.chomp
-  puts "Далее введите вашу фамилию"
+  puts "Next, enter your last name"
   soname = gets.chomp
-  puts "И на последок, ваш возраст: #n"
-  age = gets.to_iЁ
+  puts "And lastly, your age, #{name}: #n"
+  age = gets.to_i
   if age < 18
     puts "Привет, #{name} #{soname}. Тебе меньше 18 лет, но учиться программировать никогда не рано." 
     "Привет, #{name} #{soname}. Тебе меньше 18 лет, но учиться программировать никогда не рано." 
@@ -21,9 +21,17 @@ end
 
 def foobar(left, right)
   if left == 20 || right == 20
+    puts "first = #{left}, second = #{right}"
+    puts right
     right.to_i
   else
+    puts "first = #{left}, second = #{right}"
     puts left+right
     left+right
  end
 end
+
+
+foobar(1,10)
+foobar(20,10)
+foobar(10,20)
